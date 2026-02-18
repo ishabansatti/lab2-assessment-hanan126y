@@ -23,8 +23,8 @@ char getCharValue() {
 
 int convertFloatToInt(float value) {
     // convert value to int.
-    static_cast(int)<<value<<endl;
-    return value;
+    int resut = static_cast<int>(value);
+    return result;
 }
 
 /*
@@ -34,7 +34,7 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
-    Celsius = (Fahrenheit - 32) * 5 / 9;
+    float Celsius = (Fahrenheit - 32) * 5 / 9;
     //return celsius;
     return celsius;
 
